@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/daterangepicker.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>TRAINING.JO</title>
+  </head>
+
+  <body>
+    <div class="site-mobile-menu site-navbar-target bg-dark">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg aboutnav navbar-custom">
+      <div class="container-fluid">
+        <a href="index.html" class="logo m-0"
+          ><img class="imglogo" src="images/logo3-removebg-preview.png" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#about"
+                tabindex="-1"
+                aria-disabled="true"
+                >About Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn text-white signin">
+              <a href="signup.html"></a> Sign Up
+            </button>
+
+            <button class="btn" type="submit">
+              <a class="signin" style="color: white;" href="signin.html">
+                Sign In</a
+              >
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ************************ -->
+
+    <div class="container py-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body p-5">
+              <h3 class="mb-4 text-center">Sign Up</h3>
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="male"
+                      value="male"
+                    />
+                    <label class="form-check-label" for="male">Male</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="gender"
+                      id="female"
+                      value="female"
+                    />
+                    <label class="form-check-label" for="female">Female</label>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="city" class="form-label"
+                    >Place of residence:</label
+                  >
+                  <select class="form-select" id="city" name="city">
+                    <option selected>City</option>
+                    <option value="Irbid">Irbid</option>
+                    <option value="">Amman</option>
+                    <option value=""> Ajloun</option>
+                    <option value="">Jerash </option>
+                    <option value="">Mafraq </option>
+                    <option value="">Balqa </option>
+                    <option value="">Zarqa </option>
+                    <option value="">Madaba </option>
+                    <option value="">Karak </option>
+                    <option value="">Tafilah </option>
+                    <option value="">Ma'an </option>
+                    <option value="">Aqaba </option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="age" class="form-label">Age:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="age"
+                    name="age"
+                    min="18"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="education"
+                      id="student"
+                      value="student"
+                    />
+                    <label class="form-check-label" for="student"
+                      >University Student</label
+                    >
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="education"
+                      id="graduate"
+                      value="graduate"
+                    />
+                    <label class="form-check-label" for="graduate"
+                      >Graduate</label
+                    >
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <p>Did you know that this training is driven?</p>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="training"
+                      id="yes"
+                      value="yes"
+                    />
+                    <label class="form-check-label" for="yes">Yes</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="training"
+                      id="no"
+                      value="no"
+                    />
+                    <label class="form-check-label" for="no">No</label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ************************ -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/daterangepicker.js"></script>
+
+    <script src="js/typed.js"></script>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>

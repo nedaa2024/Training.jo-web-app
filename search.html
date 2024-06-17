@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Oswald:wght@300;500&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" href="css/daterangepicker.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>TRAINING.JO</title>
+  </head>
+
+  <body>
+    <div class="site-mobile-menu site-navbar-target bg-dark">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icofont-close js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg aboutnav navbar-custom">
+      <div class="container-fluid">
+        <a href="index.html" class="logo m-0"
+          ><img class="imglogo" src="images/logo3-removebg-preview.png" alt=""
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#contact">Contact Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="index.html#about"
+                tabindex="-1"
+                aria-disabled="true"
+                >About Us</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn text-white signin">
+              <a href="signup.html"></a> Sign Up
+            </button>
+
+            <button class="btn" type="submit">
+              <a class="signin" style="color: white;" href="signin.html">
+                Sign In</a
+              >
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ********************************************************************************** -->
+
+    <div class="heron" id="heron">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="row">
+            <div class="col-12">
+              <form action="search.html" class="form p-5 searchF">
+                <div class="row mb-2">
+                  <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="major"
+                      placeholder="Company Name"
+                      id="companyname"
+                    />
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Field"
+                      id="field"
+                      name="field"
+                    />
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-2">
+                    <select
+                      name="select"
+                      id="select"
+                      class="form-control custom-select"
+                    >
+                      <option value="">City </option>
+                      <option value="Irbid">Irbid</option>
+                      <option value="Amman">Amman</option>
+                      <option value="Ajloun"> Ajloun</option>
+                      <option value="Jerash ">Jerash </option>
+                      <option value="Mafraq ">Mafraq </option>
+                      <option value="Balqa">Balqa </option>
+                      <option value="Zarqa">Zarqa </option>
+                      <option value="Madaba">Madaba </option>
+                      <option value="Karak">Karak </option>
+                      <option value="Tafilah ">Tafilah </option>
+                      <option value="Ma'an ">Ma'an </option>
+                      <option value="Aqaba">Aqaba </option>
+                    </select>
+                  </div>
+
+                  <div class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
+                    <input
+                      type="submit"
+                      class="btn btn-primary btn-block"
+                      value="Search"
+                    />
+                  </div>
+
+                  <div class="resulut-box"></div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- **************************************************************************** -->
+    <!-- *************************************************** -->
+    <div class="container">
+      <div class="row" id="parentContainer">
+        <!-- Cards will be appended here by JavaScript -->
+      </div>
+    </div>
+    <!-- *************************************************** -->
+
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/daterangepicker.js"></script>
+
+    <script src="js/typed.js"></script>
+    <script src="js/mostResarchCompany.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
