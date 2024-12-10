@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to the Training.jo website! Here, you can search for training companies based on the company's name, location by governorate, or training field. We use JavaScript, Bootstrap, and jQuery to enhance the search and browsing experience.
 
-## Live Demo : Check out the [live demo]()https://666cb2803d4ad0146daa69bd--fastidious-panda-9b077f.netlify.app/ of the Training.jo website.
+## Live Demo : Check out the [live demo](https://666cb2803d4ad0146daa69bd--fastidious-panda-9b077f.netlify.app/) of the Training.jo website.
 
 
 ## How to Use
